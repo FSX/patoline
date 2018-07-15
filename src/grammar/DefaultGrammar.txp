@@ -594,7 +594,7 @@ Wouldn't it be better to take all arrows from Asana-Math??? *)
 \Configure_word_macro{\linesAfter}{ syntax = int; eat_right; eat_left; }
 
 (*\Configure_word_macro{\item}{ syntax =; eat_right; }
-\Configure_word_macro{\tableOfContents}{ syntax =;}*)
+\Configure_word_macro{\TableOfContents}{ syntax =;}*)
 
 \Configure_word_macro{\break}{ syntax =; eat_right; eat_left; }
 \Configure_word_macro{\label}{ syntax = string; eat_right; eat_left; }

@@ -99,7 +99,7 @@ for example:
 
 ###
 => Table of contents
-\tableOfContents
+\TableOfContents
 =<
 
 => Sex of the angels
@@ -122,7 +122,7 @@ respectively.
 Try these commands: in the above example, replace:
 ###
 => Table of contents
-\tableOfContents
+\TableOfContents
 =<
 ###
 By a version using \verb{->} and \verb{-<}, then \verb{.>} and \verb{.<},
@@ -130,7 +130,7 @@ instead of \verb{=>} and \verb{=<}.
 \end{exercise}
 
 As you may have noticed, a new kind of ``command'' appeared in our last
-example: ``\verb{\\tableOfContents}''. Any item in Patoline beginning with
+example: ``\verb{\\TableOfContents}''. Any item in Patoline beginning with
 \verb{\\} is not typeset as such, but instead calls a command modifying
 the output. Of course, there is also a way to get a '\verb{\\}' in the
 output, by writing ``\verb{\\\\}''. At the end of this book, you will
@@ -223,7 +223,7 @@ Which produces:
 
 The environment \verb{genumerate} takes an argument which is an OCaml value: a pair with two arguments:
 \begin{itemize}
-\item \verb{AlphaLower} which could also be \verb{Arabic}, \verb{AlphaUpper}, \verb{RomanLower} or \verb{RomanUpper}. This tells what 
+\item \verb{AlphaLower} which could also be \verb{Arabic}, \verb{AlphaUpper}, \verb{RomanLower} or \verb{RomanUpper}. This tells what
 king of numerals you want to use. Try it!
 \item \verb{fun s -> [tT (s^". ")]} is a function taking a string \verb{s} and return Patoline content. This is descibed later in this book.
 Here, we add a period and a space after the string which contains the numeral.
@@ -239,7 +239,7 @@ There is also a syntactic sugar for genumerate and the following produces the sa
 
 With this abbreviation, \verb{&1} will be replaced by the item number in numerals and you may guess (or try) the effect of
 \verb{&a}, \verb{&A}, \verb{&i}, \verb{&I}.
-Remark: we have to force the final space to be kept using \verb{~} (we could also use \verb{\hspace}). 
+Remark: we have to force the final space to be kept using \verb{~} (we could also use \verb{\hspace}).
 
 
 =<
